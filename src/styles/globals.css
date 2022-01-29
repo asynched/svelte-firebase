@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+html,
+body {
+  @apply bg-gray-200 text-neutral-800;
+}
+
+@layer components {
+  .checkbox {
+    @apply form-checkbox w-5 h-5 bg-neutral-200 text-neutral-800 border-none rounded-lg transition-all ease-in-out duration-300 hover:cursor-pointer focus:ring-neutral-800;
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "dona-clone",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
+    "@tailwindcss/forms": "^0.4.0",
+    "autoprefixer": "^10.4.2",
+    "chance": "^1.1.8",
+    "postcss": "^8.4.5",
+    "svelte": "^3.44.0",
+    "tailwindcss": "^3.0.18",
+    "vite": "^2.7.2"
+  },
+  "dependencies": {
+    "firebase": "^9.6.5"
+  }
+}
